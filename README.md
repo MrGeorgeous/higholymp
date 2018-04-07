@@ -3,41 +3,33 @@ Repo of smart web application available to all users
 
 ## Some db specifications
 
+[Olympiad types](#olympiad_types)
 ### Olympiad types:
-Simple types:
-math_math
-phys_phys
-astr_astr
-econ_econ
-chem_chem
-geog_geog
-geol_geol
-inos_inos
-righ_righ
-russ_russ
-litr_litr
-soci_soci
-hist_hist
-info_info
-biol_biol
-phyl_phyl
-desi_desi
-jour_jour
-ecol_ecol
-inga_inga
-nano
-medi
-scie
-inge
-guma
-wogo
-hiwo
-hiru
-eaaf
-eaed
-phls
+| Simple types      | Meaning        |
+| ------------- | ------------- |
+|math_math| 12 |
+|phys_phys| |
+|astr_astr| |
+|econ_econ| |
+|chem_chem| |
+|geog_geog| |
+|geol_geol| |
+|inos_inos| |
+|righ_righ| |
+|russ_russ| |
+|litr_litr| |
+|soci_soci| |
+|hist_hist| |
+|info_info| |
+|biol_biol| |
+|phyl_phyl| |
+|desi_desi| |
+|jour_jour| |
+|ecol_ecol| |
+|inga_inga| |
 _________
-Combined types:
+Combined types | Profile | Subjects
+--- | --- | ---
 chdi_diri| хоровое дирижирование	| дирижирование (дирижирование академическим хором)
 namu_conc| инструменты народного оркестра	| искусство концертного исполнительства (концертные народные инструменты)
 stru_conc| струнные инструменты	| искусство концертного исполнительства (концертные струнные инструменты)
