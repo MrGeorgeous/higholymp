@@ -26,7 +26,7 @@ A_I | `Olympiad` | 9 / 10 / 11 | 1 / 2 / 3 | 20XX
 
 ### `PrivilegeTable`
 
-Object[ 9 / 10 / 11 ][ 'bvi' / '100' ][ [ subject ](profiles.md#ege-subjects) ] contains collection of `OlympedPrivilege`.
+Object[ 9 / 10 / 11 ][ 'bvi' / '100' ][ [ subject (for 100 only)](profiles.md#ege-subjects) ] contains collection of `OlympedPrivilege`.
 
 ### `OlympedPrivilege`
 
