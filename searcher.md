@@ -7,7 +7,7 @@
 #### ProgrammeSearcher(db_name : string)
 Init by filename of database.
 
-#### searchProgrammes(town : [int], is_paid : int, years : [int, int], codes : [string]) -> [DB row of `Programmes`]
+#### searchProgrammes(town : [int], is_paid : int, years : [int, int], codes : [string]) -> [`Programme`]
 
 Searches programmes with following criterias.
 If criteria is not set: param is FALSE.
@@ -28,5 +28,19 @@ If criteria is not set: param is FALSE.
   
 ```php
 $ps = new ProgrammeSearcher('source.db');
-$ps->searchProgrammes([0,3], 0, [3,6], ['01.00.00', '38.03.05']);
+$ps->searchProgrammes([0,3], 0, [3,6], ['01.00.00', '45.03.00', '38.03.05']);
 ```
+
+#### getPrivilegesForProgramme(programme : `Programme`, year : int) -> [`PrivilegeTable`]
+
+Returns full review of programme privileges for specified year.
+
+#### getOlympiadsForPrivilege(privilege : `Privilege`) -> [`Olympiad`]
+
+Returns all olympiads which are suitable for specified privilege.
+
+#### getPrivilegesByAchievements(programmes : [`Programme`], achieves : [`Achievement`]) -> [`Privilege`]
+
+Returns all privileges that are covered with specified achievements.
+
+#### getListOfProg
