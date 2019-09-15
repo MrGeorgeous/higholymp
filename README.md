@@ -1,6 +1,19 @@
-# Web Version
-Repo of smart web application available to all users
+# HighOlymp
+
+Web-приложение для поиска льгот для поступления в ВУЗы РФ.
+
+Контакты: github.com/MrGeorgeous
+
+БД обновлялась и верифицировалась последний раз к 2017/2018 году поступления.
+
 
 ## Some db specifications
 
-[Profile specs](profiles.md)
+Спецификации:
+
+[Профили олимпиад](profiles.md)
+[Города РФ](towns.md)
+[Объекты БД](dbrows.md)
+
+Методы:
+[Поиск олимпиад](searcher.md)
