@@ -1,22 +1,32 @@
 # HighOlymp
 
-Web-приложение для поиска льгот для поступления в ВУЗы РФ.
+Web application to search olympiad privileges in Russian universities.
 
-Контакты: github.com/MrGeorgeous
+For further details, see new [data model of 2021](http://github.com/MrGeorgeous/OlympiadAPI).
 
-БД обновлялась и верифицировалась последний раз к 2017/2018 году поступления.
+## Features
 
-Приложение работает на [olymp.mrgeorgeous.com](http://olymp.mrgeorgeous.com)
-
-Серверный API намеренно закрыт, ибо представляет высокий коммерческий интерес.
+* View and search Bachelor's programmes of universities
+* See excessive list of accepted olympiads
+* Mark favorite programmes
+* Mark taken olympiads and search based on these achievements
 
 ## Some db specifications
 
-Спецификации:
+* [Olympiad Profiles](profiles.md)
+* [Cities of Russia](towns.md)
+* [DB Objects](dbrows.md)
 
-* [Профили олимпиад](profiles.md)
-* [Города РФ](towns.md)
-* [Объекты БД](dbrows.md)
+Methods:
+* [Olympiad Search](searcher.md)
 
-Методы:
-* [Поиск олимпиад](searcher.md)
+## Screenshots
+
+![](etc/olymp1.PNG)
+![](etc/olymp2.PNG)
+![](etc/olymp3.PNG)
+![](etc/olymp4.PNG)
+![](etc/olymp5.PNG)
+![](etc/olymp6.PNG)
+![](etc/olymp7.PNG)
+![](etc/olymp8.PNG)
