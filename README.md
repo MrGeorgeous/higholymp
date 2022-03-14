@@ -1,15 +1,15 @@
 # HighOlymp
 
-Web application to search olympiad privileges in Russian universities.
+A web application to look up olympiad privileges in Russian universities.
 
 For further details, see new [data model of 2021](http://github.com/MrGeorgeous/OlympiadAPI).
 
 ## Features
 
-* View and search Bachelor's programmes of universities
-* See excessive list of accepted olympiads
-* Mark favorite programmes
-* Mark taken olympiads and search based on these achievements
+* View and search for Bachelor's programmes in universities
+* See an expansive list of state-approved olympiads
+* Bookmark favourite programmes
+* Bookmark attended olympiads and apply them as a search criterion
 
 ## Some db specifications
 
